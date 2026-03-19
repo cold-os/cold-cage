@@ -7,7 +7,7 @@
 
 ## Background and Motivation
 
-Current agent frameworks (e.g., OpenClaw, AutoGPT) have achieved remarkable progress in autonomy, yet they exhibit fundamental flaws particularly in terms of security:
+Current agent frameworks (e.g., OpenClaw, AutoGPT) have achieved remarkable progress in terms of autonomy, yet they exhibit fundamental flaws particularly in terms of security:
 
 - **Secret Key Leakage Risk**: Agents directly access real passwords, leading to severe consequences once compromised.
 - **Direct System Connection Risk**: Agents can invoke system interfaces directly without effective isolation.
