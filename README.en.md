@@ -219,4 +219,10 @@ Lu, Y. (2025). *Deconstructing the Dual Black Box: A Plug-and-Play Cognitive Fra
 
 ## AI-Assisted Statement
 
-In the process of writing this README document, human researchers and AI tools collaboratively completed draft generation, technical route evaluation, and architectural design discussions. The prototype code of CAGE was developed by AI tools. The use of AI tools is strictly limited to auxiliary work, and the core ideas and academic responsibilities are borne by human researchers.
+In the development process of the CAGE project, the human author collaborated with artificial intelligence tools (Doubao, DeepSeek), with each party assuming clearly defined roles:
+
+- **The human author**: Proposed the core ideas of the project, including extending the Cold Existence Model to the field of agent security, constructing the overall architecture of "three-tier isolation + password translation", emphasizing the fundamental controllability principle of "a temporary code must be used for each execution", and leading the direction, evaluating results, and making key decisions throughout the entire process.
+- **Doubao AI**: Based on the ideas of the human author, refined the specific description of the three-tier isolation architecture, designed the complete workflow of the password translation system, and provided a clear blueprint for subsequent engineering implementation.
+- **DeepSeek**: Completed the code implementation of CAGE in accordance with Doubao AI's design and drafted the initial version of the README document with reference to the CEAL template. DeepSeek's code implementation facilitated the human author's conception that "a temporary code is required for each step of execution, not just for steps that involve passwords".
+
+All core ideas, architectural decisions, as well as the review and confirmation of the final code for the CAGE project were independently completed by the human author. The use of artificial intelligence tools was strictly limited to auxiliary work (e.g., scheme refinement, code generation, document collation) and did not constitute any original contribution. The project is currently in the preliminary exploration phase, and the code and documents will be continuously iterated and improved through community collaboration.
