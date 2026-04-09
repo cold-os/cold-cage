@@ -1,6 +1,27 @@
+<div align="center">
+    
+[English](README.md) | [中文](README.zh.md)
+
+</div>
+
+<div align="center">
+    
 # CAGE：Cold-Existence Agent Guard and Executor
 
-![Status](https://img.shields.io/badge/Status-Experimental-orange)  
+</div>
+
+<div align="center">
+
+[![arXiv](https://img.shields.io/badge/arXiv-2512.08740-brightgreen.svg)](https://arxiv.org/abs/<2512.08740>)
+[![DOI](https://img.shields.io/badge/DOI-10.48550/arXiv.2512.08740-brightgreen.svg)](https://doi.org/10.48550/arXiv.2512.08740)
+[![figshare](https://img.shields.io/badge/figshare-31696846-blueviolet.svg?logo=figshare&logoColor=white)](https://doi.org/10.6084/m9.figshare.31696846)
+[![DOI](https://img.shields.io/badge/DOI-10.6084/m9.figshare.31696846-blueviolet.svg)](https://doi.org/10.6084/m9.figshare.31696846)
+[![Python](https://img.shields.io/badge/Python-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+![Status](https://img.shields.io/badge/Status-Pre--Alpha--Prototype-orange)
+
+</div>
+
 **CAGE**是一个实验性的智能体安全隔离框架，尝试通过**三层架构+临时令牌机制**，从系统层面切断智能体与真实世界的直接连接。本项目基于《[冷存在模型：一个基于事实的人工智能本体论框架](https://doi.org/10.6084/m9.figshare.31696846)》中提出的哲学思想，将其从“对话约束”延伸至“行动约束”。当前工程原型以文件管理智能体为场景进行探索，其架构具备通用潜力。
 
 ---
